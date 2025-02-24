@@ -7,8 +7,7 @@
 </head>
 <body>
     <?php 
-        echo 'Hola Mundo'; 
-        print("Hola mundo 2");
+        print("Hola mundo 2 from sevilla");
     ?>
 </body>
 </html>
