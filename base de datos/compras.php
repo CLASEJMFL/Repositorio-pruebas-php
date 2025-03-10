@@ -18,7 +18,7 @@
 
     <?php
     if (isset($_POST['submit'])) {
-        $conn = new mysqli('localhost', 'mi_usuario', '', 'Concesionario', null, '/run/mysqld/mysqld.sock');
+        $conn = new mysqli('localhost', 'usuario', 'usuario', 'Concesionario', null, '/run/mysqld/mysqld.sock');
 
         if ($conn->connect_error) {
             die('Error de conexión: ' . $conn->connect_error);
